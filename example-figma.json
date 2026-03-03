@@ -1,0 +1,196 @@
+{
+    "document": {
+        "id": "0:0",
+        "name": "Document",
+        "type": "DOCUMENT",
+        "children": [
+            {
+                "id": "1:1",
+                "name": "Page 1",
+                "type": "CANVAS",
+                "children": [
+                    {
+                        "id": "2:2",
+                        "name": "Card Component",
+                        "type": "FRAME",
+                        "layoutMode": "VERTICAL",
+                        "primaryAxisAlignItems": "MIN",
+                        "counterAxisAlignItems": "CENTER",
+                        "itemSpacing": 16,
+                        "paddingLeft": 24,
+                        "paddingRight": 24,
+                        "paddingTop": 24,
+                        "paddingBottom": 24,
+                        "cornerRadius": 12,
+                        "fills": [
+                            {
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1,
+                                    "g": 1,
+                                    "b": 1,
+                                    "a": 1
+                                },
+                                "visible": true
+                            }
+                        ],
+                        "strokes": [
+                            {
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 0.9,
+                                    "g": 0.9,
+                                    "b": 0.9,
+                                    "a": 1
+                                },
+                                "visible": true
+                            }
+                        ],
+                        "strokeWeight": 1,
+                        "absoluteBoundingBox": {
+                            "x": 100,
+                            "y": 100,
+                            "width": 320,
+                            "height": 200
+                        },
+                        "children": [
+                            {
+                                "id": "3:3",
+                                "name": "Card Image Placeholder",
+                                "type": "RECTANGLE",
+                                "cornerRadius": 8,
+                                "absoluteBoundingBox": {
+                                    "width": 272,
+                                    "height": 120
+                                },
+                                "fills": [
+                                    {
+                                        "type": "SOLID",
+                                        "color": {
+                                            "r": 0.8,
+                                            "g": 0.8,
+                                            "b": 0.9,
+                                            "a": 1
+                                        },
+                                        "visible": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "4:4",
+                                "name": "Card Details",
+                                "type": "FRAME",
+                                "layoutMode": "VERTICAL",
+                                "itemSpacing": 8,
+                                "children": [
+                                    {
+                                        "id": "5:5",
+                                        "name": "Title",
+                                        "type": "TEXT",
+                                        "characters": "Figma to React",
+                                        "style": {
+                                            "fontFamily": "Inter",
+                                            "fontWeight": 700,
+                                            "fontSize": 18,
+                                            "textAlignHorizontal": "LEFT"
+                                        },
+                                        "fills": [
+                                            {
+                                                "type": "SOLID",
+                                                "color": {
+                                                    "r": 0.1,
+                                                    "g": 0.1,
+                                                    "b": 0.1,
+                                                    "a": 1
+                                                },
+                                                "visible": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "6:6",
+                                        "name": "Description",
+                                        "type": "TEXT",
+                                        "characters": "Automatically generate React + Tailwind code directly from your Figma designs.",
+                                        "style": {
+                                            "fontFamily": "Inter",
+                                            "fontWeight": 400,
+                                            "fontSize": 14,
+                                            "textAlignHorizontal": "LEFT"
+                                        },
+                                        "fills": [
+                                            {
+                                                "type": "SOLID",
+                                                "color": {
+                                                    "r": 0.4,
+                                                    "g": 0.4,
+                                                    "b": 0.4,
+                                                    "a": 1
+                                                },
+                                                "visible": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "7:7",
+                                "name": "Button",
+                                "type": "FRAME",
+                                "layoutMode": "HORIZONTAL",
+                                "primaryAxisAlignItems": "CENTER",
+                                "counterAxisAlignItems": "CENTER",
+                                "paddingTop": 12,
+                                "paddingBottom": 12,
+                                "paddingLeft": 20,
+                                "paddingRight": 20,
+                                "cornerRadius": 6,
+                                "absoluteBoundingBox": {
+                                    "width": 272
+                                },
+                                "fills": [
+                                    {
+                                        "type": "SOLID",
+                                        "color": {
+                                            "r": 0.1,
+                                            "g": 0.4,
+                                            "b": 0.9,
+                                            "a": 1
+                                        },
+                                        "visible": true
+                                    }
+                                ],
+                                "children": [
+                                    {
+                                        "id": "8:8",
+                                        "name": "Button Text",
+                                        "type": "TEXT",
+                                        "characters": "Generate Code",
+                                        "style": {
+                                            "fontFamily": "Inter",
+                                            "fontWeight": 600,
+                                            "fontSize": 14,
+                                            "textAlignHorizontal": "CENTER"
+                                        },
+                                        "fills": [
+                                            {
+                                                "type": "SOLID",
+                                                "color": {
+                                                    "r": 1,
+                                                    "g": 1,
+                                                    "b": 1,
+                                                    "a": 1
+                                                },
+                                                "visible": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
